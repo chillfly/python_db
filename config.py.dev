@@ -1,0 +1,18 @@
+DEBUG = True
+
+SERVER_HOST = "0.0.0.0"
+SERVER_PORT = 9000
+
+MYSQL_HOST = "127.0.0.1"
+MYSQL_PORT = 3306
+MYSQL_USER = "xxx"
+MYSQL_PWD = "xxx"
+MYSQL_DB = "xxx"
+MYSQL_CHARSET = "utf8"
+
+MONGO_HOST = "127.0.0.1"
+MONGO_PORT = 27017
+MONGO_DB = "mytest"
+
+# 调用接口时需要在请求头中传入的token，与该配置验证，一致，则允许调用。可以自己约定，也可以参考common.py中的create_token方法
+TOKEN = "hT1DgxRNQwu1qh4oaSAr3B8SDFSFSFSHWRVs="
